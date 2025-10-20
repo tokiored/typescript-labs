@@ -1,0 +1,32 @@
+{
+    "name": "menu-app",
+    "version": "1.0.0",
+    "description": "A simple typescript pizza menu app using json server & parcel build tool",
+    "type": "module",
+    "scripts": {
+        "start": "parcel src/*.html",
+        "api": "json-server --watch db.json",
+        "lint": "eslint .",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.34.0",
+        "@types/node": "^24.7.2",
+        "ejs": "^3.1.10",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-jest": "^28.6.0",
+        "eslint-plugin-prettier": "^5.5.4",
+        "jest": "^29.7.0",
+        "parcel": "^2.16.0",
+        "prettier": "^3.6.2",
+        "typescript-eslint": "^8.43.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "json-server": "^1.0.0-beta.3",
+        "typescript": "^5.9.2"
+    }
+}
